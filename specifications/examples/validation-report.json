@@ -1,0 +1,2774 @@
+{
+  "timestamp": "2026-02-20T23:05:20.236Z",
+  "summary": {
+    "total": 436,
+    "pass": 219,
+    "fail": 217,
+    "empty": 0
+  },
+  "categories": {
+    "annex-a": {
+      "pass": 6,
+      "fail": 26,
+      "empty": 0,
+      "files": [
+        {
+          "file": "annex-A.10-001.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "annex-A.10-002.sysml",
+          "status": "fail",
+          "errors": 3,
+          "lexerErrors": 0
+        },
+        {
+          "file": "annex-A.11-001.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "annex-A.11-002.sysml",
+          "status": "fail",
+          "errors": 5,
+          "lexerErrors": 1
+        },
+        {
+          "file": "annex-A.12-001.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "annex-A.12-002.sysml",
+          "status": "fail",
+          "errors": 4,
+          "lexerErrors": 0
+        },
+        {
+          "file": "annex-A.13-001.sysml",
+          "status": "fail",
+          "errors": 2,
+          "lexerErrors": 0
+        },
+        {
+          "file": "annex-A.13-002.sysml",
+          "status": "fail",
+          "errors": 2,
+          "lexerErrors": 0
+        },
+        {
+          "file": "annex-A.2-001.sysml",
+          "status": "fail",
+          "errors": 3,
+          "lexerErrors": 0
+        },
+        {
+          "file": "annex-A.2-002.sysml",
+          "status": "fail",
+          "errors": 9,
+          "lexerErrors": 0
+        },
+        {
+          "file": "annex-A.3-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "annex-A.3-002.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "annex-A.3-003.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "annex-A.3-004.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "annex-A.4-001.sysml",
+          "status": "fail",
+          "errors": 3,
+          "lexerErrors": 0
+        },
+        {
+          "file": "annex-A.4-002.sysml",
+          "status": "fail",
+          "errors": 4,
+          "lexerErrors": 0
+        },
+        {
+          "file": "annex-A.4-003.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "annex-A.4-004.sysml",
+          "status": "fail",
+          "errors": 2,
+          "lexerErrors": 0
+        },
+        {
+          "file": "annex-A.5-001.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "annex-A.5-002.sysml",
+          "status": "fail",
+          "errors": 3,
+          "lexerErrors": 0
+        },
+        {
+          "file": "annex-A.6-001.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "annex-A.6-002.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "annex-A.6-003.sysml",
+          "status": "fail",
+          "errors": 5,
+          "lexerErrors": 0
+        },
+        {
+          "file": "annex-A.7-001.sysml",
+          "status": "fail",
+          "errors": 2,
+          "lexerErrors": 0
+        },
+        {
+          "file": "annex-A.7-002.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "annex-A.7-003.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "annex-A.7-004.sysml",
+          "status": "fail",
+          "errors": 35,
+          "lexerErrors": 0
+        },
+        {
+          "file": "annex-A.8-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "annex-A.8-002.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "annex-A.8-003.sysml",
+          "status": "fail",
+          "errors": 3,
+          "lexerErrors": 0
+        },
+        {
+          "file": "annex-A.8-004.sysml",
+          "status": "fail",
+          "errors": 2,
+          "lexerErrors": 0
+        },
+        {
+          "file": "annex-A.9-001.sysml",
+          "status": "fail",
+          "errors": 2,
+          "lexerErrors": 0
+        }
+      ]
+    },
+    "ch7-actions": {
+      "pass": 22,
+      "fail": 20,
+      "empty": 0,
+      "files": [
+        {
+          "file": "ex-7.17.10-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.17.10-002.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.17.10-003.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.17.10-004.sysml",
+          "status": "fail",
+          "errors": 3,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.17.11-001.sysml",
+          "status": "fail",
+          "errors": 2,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.17.11-002.sysml",
+          "status": "fail",
+          "errors": 3,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.17.11-003.sysml",
+          "status": "fail",
+          "errors": 9,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.17.12-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.17.12-002.sysml",
+          "status": "fail",
+          "errors": 2,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.17.12-003.sysml",
+          "status": "fail",
+          "errors": 7,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.17.12-004.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.17.12-005.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.17.12-006.sysml",
+          "status": "fail",
+          "errors": 2,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.17.12-007.sysml",
+          "status": "fail",
+          "errors": 4,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.17.2-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.17.2-002.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.17.2-003.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.17.2-004.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.17.2-005.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.17.2-006.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.17.3-001.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.17.3-002.sysml",
+          "status": "fail",
+          "errors": 3,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.17.4-001.sysml",
+          "status": "fail",
+          "errors": 2,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.17.4-002.sysml",
+          "status": "fail",
+          "errors": 6,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.17.4-003.sysml",
+          "status": "fail",
+          "errors": 12,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.17.5-001.sysml",
+          "status": "fail",
+          "errors": 13,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.17.6-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.17.6-002.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.17.6-003.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.17.7-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.17.7-002.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.17.7-003.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.17.7-004.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.17.7-005.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.17.8-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.17.8-002.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.17.8-003.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.17.8-004.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.17.8-005.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.17.8-006.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.17.9-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.17.9-002.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        }
+      ]
+    },
+    "ch7-attributes": {
+      "pass": 1,
+      "fail": 0,
+      "empty": 0,
+      "files": [
+        {
+          "file": "ex-7.7.2-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        }
+      ]
+    },
+    "ch7-calculations": {
+      "pass": 4,
+      "fail": 1,
+      "empty": 0,
+      "files": [
+        {
+          "file": "ex-7.19.2-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.19.2-002.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.19.2-003.sysml",
+          "status": "fail",
+          "errors": 2,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.19.2-004.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.19.2-005.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        }
+      ]
+    },
+    "ch7-cases": {
+      "pass": 3,
+      "fail": 5,
+      "empty": 0,
+      "files": [
+        {
+          "file": "ex-7.22.2-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.23.2-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.23.3-001.sysml",
+          "status": "fail",
+          "errors": 2,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.23.3-002.sysml",
+          "status": "fail",
+          "errors": 7,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.24.2-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.25.2-001.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.25.2-002.sysml",
+          "status": "fail",
+          "errors": 10,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.25.3-001.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        }
+      ]
+    },
+    "ch7-connections": {
+      "pass": 12,
+      "fail": 5,
+      "empty": 0,
+      "files": [
+        {
+          "file": "ex-7.13.2-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.13.2-002.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.13.2-003.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.13.2-004.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.13.2-005.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.13.2-006.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.13.2-007.sysml",
+          "status": "fail",
+          "errors": 2,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.13.2-008.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.13.2-009.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.13.2-010.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.13.3-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.13.4-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.13.4-002.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.13.4-003.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.13.5-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.13.5-002.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.13.5-003.sysml",
+          "status": "fail",
+          "errors": 3,
+          "lexerErrors": 0
+        }
+      ]
+    },
+    "ch7-constraints": {
+      "pass": 2,
+      "fail": 2,
+      "empty": 0,
+      "files": [
+        {
+          "file": "ex-7.20.2-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.20.3-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.20.3-002.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.20.3-003.sysml",
+          "status": "fail",
+          "errors": 3,
+          "lexerErrors": 0
+        }
+      ]
+    },
+    "ch7-enumerations": {
+      "pass": 1,
+      "fail": 1,
+      "empty": 0,
+      "files": [
+        {
+          "file": "ex-7.8.2-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.8.2-002.sysml",
+          "status": "fail",
+          "errors": 2,
+          "lexerErrors": 0
+        }
+      ]
+    },
+    "ch7-flows": {
+      "pass": 3,
+      "fail": 1,
+      "empty": 0,
+      "files": [
+        {
+          "file": "ex-7.16.2-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.16.2-002.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.16.2-003.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.16.2-004.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        }
+      ]
+    },
+    "ch7-items": {
+      "pass": 1,
+      "fail": 0,
+      "empty": 0,
+      "files": [
+        {
+          "file": "ex-7.10.2-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        }
+      ]
+    },
+    "ch7-metadata": {
+      "pass": 8,
+      "fail": 1,
+      "empty": 0,
+      "files": [
+        {
+          "file": "ex-7.27.2-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.27.2-002.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.27.2-003.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.27.2-004.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.27.2-005.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.27.2-006.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.27.2-007.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.27.3-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.27.4-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        }
+      ]
+    },
+    "ch7-misc": {
+      "pass": 28,
+      "fail": 4,
+      "empty": 0,
+      "files": [
+        {
+          "file": "ex-7.14.2-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.14.2-002.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.15.2-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.2.2-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.3.2-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.3.2-002.sysml",
+          "status": "fail",
+          "errors": 2,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.4.2-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.4.2-002.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.4.2-003.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.4.2-004.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.4.3-001.sysml",
+          "status": "fail",
+          "errors": 6,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.6.2-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.6.2-002.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.6.3-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.6.3-002.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.6.3-003.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.6.3-004.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.6.4-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.6.5-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.6.6-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.6.7-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.6.7-002.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.6.8-001.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.6.8-002.sysml",
+          "status": "fail",
+          "errors": 3,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.9.2-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.9.2-002.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.9.2-003.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.9.3-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.9.4-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.9.4-002.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.9.5-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.9.5-002.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        }
+      ]
+    },
+    "ch7-packages": {
+      "pass": 9,
+      "fail": 4,
+      "empty": 0,
+      "files": [
+        {
+          "file": "ex-7.5.2-001.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.5.2-002.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.5.2-003.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.5.2-004.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.5.2-005.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.5.3-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.5.3-002.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.5.3-003.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.5.3-004.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.5.4-001.sysml",
+          "status": "fail",
+          "errors": 2,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.5.4-002.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.5.4-003.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.5.5-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        }
+      ]
+    },
+    "ch7-parts": {
+      "pass": 0,
+      "fail": 2,
+      "empty": 0,
+      "files": [
+        {
+          "file": "ex-7.11.2-001.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.11.2-002.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        }
+      ]
+    },
+    "ch7-ports": {
+      "pass": 3,
+      "fail": 1,
+      "empty": 0,
+      "files": [
+        {
+          "file": "ex-7.12.2-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.12.3-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.12.3-002.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.12.3-003.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        }
+      ]
+    },
+    "ch7-requirements": {
+      "pass": 6,
+      "fail": 6,
+      "empty": 0,
+      "files": [
+        {
+          "file": "ex-7.21.2-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.21.2-002.sysml",
+          "status": "fail",
+          "errors": 2,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.21.2-003.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.21.2-004.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.21.2-005.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.21.2-006.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.21.3-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.21.3-002.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.21.3-003.sysml",
+          "status": "fail",
+          "errors": 4,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.21.4-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.21.4-002.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.21.4-003.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        }
+      ]
+    },
+    "ch7-states": {
+      "pass": 11,
+      "fail": 5,
+      "empty": 0,
+      "files": [
+        {
+          "file": "ex-7.18.2-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.18.2-002.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.18.2-003.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.18.2-004.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.18.2-005.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.18.2-006.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.18.2-007.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.18.3-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.18.3-002.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.18.3-003.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.18.3-004.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.18.3-005.sysml",
+          "status": "fail",
+          "errors": 16,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.18.3-006.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.18.3-007.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.18.4-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.18.4-002.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        }
+      ]
+    },
+    "ch7-views": {
+      "pass": 3,
+      "fail": 5,
+      "empty": 0,
+      "files": [
+        {
+          "file": "ex-7.26.2-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.26.2-002.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.26.2-003.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.26.2-004.sysml",
+          "status": "fail",
+          "errors": 4,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.26.3-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.26.3-002.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.26.3-003.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-7.26.3-004.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        }
+      ]
+    },
+    "ch8-metamodel": {
+      "pass": 82,
+      "fail": 126,
+      "empty": 0,
+      "files": [
+        {
+          "file": "ex-8.3.17.10-001.sysml",
+          "status": "fail",
+          "errors": 11,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.3.17.10-002.sysml",
+          "status": "fail",
+          "errors": 15,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.3.17.10-003.sysml",
+          "status": "fail",
+          "errors": 15,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.3.17.12-001.sysml",
+          "status": "fail",
+          "errors": 15,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.3.17.14-001.sysml",
+          "status": "fail",
+          "errors": 12,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.3.17.3-001.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.3.18.5-001.sysml",
+          "status": "fail",
+          "errors": 16,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.3.18.5-002.sysml",
+          "status": "fail",
+          "errors": 16,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.3.18.5-003.sysml",
+          "status": "fail",
+          "errors": 16,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.3.18.5-004.sysml",
+          "status": "fail",
+          "errors": 3,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.3.18.6-001.sysml",
+          "status": "fail",
+          "errors": 16,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.3.18.6-002.sysml",
+          "status": "fail",
+          "errors": 16,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.3.18.6-003.sysml",
+          "status": "fail",
+          "errors": 16,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.3.18.9-001.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.3.18.9-002.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.3.20.2-001.sysml",
+          "status": "fail",
+          "errors": 16,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.3.21.7-001.sysml",
+          "status": "fail",
+          "errors": 18,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.3.21.8-001.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.3.21.8-002.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.3.21.8-003.sysml",
+          "status": "fail",
+          "errors": 3,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.3.21.9-001.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.3.21.9-002.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.3.21.9-003.sysml",
+          "status": "fail",
+          "errors": 3,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.3.22.2-001.sysml",
+          "status": "fail",
+          "errors": 6,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.3.22.2-002.sysml",
+          "status": "fail",
+          "errors": 10,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.3.22.3-001.sysml",
+          "status": "fail",
+          "errors": 16,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.3.24.3-001.sysml",
+          "status": "fail",
+          "errors": 11,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.3.24.4-001.sysml",
+          "status": "fail",
+          "errors": 11,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.3.26.11-001.sysml",
+          "status": "fail",
+          "errors": 2,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.3.26.7-001.sysml",
+          "status": "fail",
+          "errors": 2,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.3.26.7-002.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.3.26.8-001.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.3.26.9-001.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.3.6.2-001.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.3.6.2-002.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.3.6.2-003.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.3.6.2-004.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.3.6.2-005.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.3.6.2-006.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.3.6.2-007.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.3.6.2-008.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.3.6.2-009.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.3.6.2-010.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.3.6.2-011.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.3.6.2-012.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.3.6.2-013.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.3.6.4-001.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.3.6.4-002.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.3.6.4-003.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.3.6.4-004.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.3.6.4-005.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.3.6.4-006.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.3.6.4-007.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.3.6.4-008.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.3.6.4-009.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.3.6.4-010.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.3.6.4-011.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.3.6.4-012.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.3.6.4-013.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.10.1-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.10.2-001.sysml",
+          "status": "fail",
+          "errors": 5,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.11.1-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.11.2-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.12.1-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.12.1-002.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.12.1-003.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.12.2-001.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.12.2-002.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.12.2-003.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.12.2-004.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.12.3-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.13.1-001.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.13.10-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.13.10-002.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.13.10-003.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.13.10-004.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.13.11-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.13.11-002.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.13.11-003.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.13.2-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.13.2-002.sysml",
+          "status": "fail",
+          "errors": 5,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.13.2-003.sysml",
+          "status": "fail",
+          "errors": 3,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.13.2-004.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.13.2-005.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.13.3-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.13.3-002.sysml",
+          "status": "fail",
+          "errors": 17,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.13.4-001.sysml",
+          "status": "fail",
+          "errors": 6,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.13.4-002.sysml",
+          "status": "fail",
+          "errors": 6,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.13.4-003.sysml",
+          "status": "fail",
+          "errors": 4,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.13.4-004.sysml",
+          "status": "fail",
+          "errors": 3,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.13.4-005.sysml",
+          "status": "fail",
+          "errors": 5,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.13.4-006.sysml",
+          "status": "fail",
+          "errors": 6,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.13.4-007.sysml",
+          "status": "fail",
+          "errors": 6,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.13.4-008.sysml",
+          "status": "fail",
+          "errors": 5,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.13.4-009.sysml",
+          "status": "fail",
+          "errors": 6,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.13.4-010.sysml",
+          "status": "fail",
+          "errors": 8,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.13.5-001.sysml",
+          "status": "fail",
+          "errors": 2,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.13.5-002.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.13.5-003.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.13.5-004.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.13.5-005.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.13.6-001.sysml",
+          "status": "fail",
+          "errors": 2,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.13.6-002.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.13.6-003.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.13.6-004.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.13.6-005.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.13.6-006.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.13.6-007.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.13.6-008.sysml",
+          "status": "fail",
+          "errors": 5,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.13.6-009.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.13.7-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.13.7-002.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.13.8-001.sysml",
+          "status": "fail",
+          "errors": 2,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.13.8-002.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.13.9-001.sysml",
+          "status": "fail",
+          "errors": 6,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.13.9-002.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.14.1-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.14.1-002.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.14.2-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.14.2-002.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.14.2-003.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.14.2-004.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.14.3-001.sysml",
+          "status": "fail",
+          "errors": 2,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.14.3-002.sysml",
+          "status": "fail",
+          "errors": 4,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.14.3-003.sysml",
+          "status": "fail",
+          "errors": 17,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.14.4-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.14.4-002.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.14.4-003.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.15.1-001.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.15.1-002.sysml",
+          "status": "fail",
+          "errors": 2,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.15.1-003.sysml",
+          "status": "fail",
+          "errors": 4,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.15.2-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.15.2-002.sysml",
+          "status": "fail",
+          "errors": 2,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.15.2-003.sysml",
+          "status": "fail",
+          "errors": 4,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.16.1-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.16.2-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.16.2-002.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.16.3-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.17.1-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.17.1-002.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.17.1-003.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.17.2-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.17.2-002.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.17.2-003.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.17.3-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.17.3-002.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.17.3-003.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.17.3-004.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.17.4-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.17.5-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.17.5-002.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.18.1-001.sysml",
+          "status": "fail",
+          "errors": 3,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.18.1-002.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.18.2-001.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.18.2-002.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.18.2-003.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.18.2-004.sysml",
+          "status": "fail",
+          "errors": 6,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.19.1-001.sysml",
+          "status": "fail",
+          "errors": 2,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.19.2-001.sysml",
+          "status": "fail",
+          "errors": 2,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.19.2-002.sysml",
+          "status": "fail",
+          "errors": 4,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.2.3-001.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.2.3-002.sysml",
+          "status": "fail",
+          "errors": 8,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.2.3-003.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.2.3-004.sysml",
+          "status": "fail",
+          "errors": 6,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.20.1-001.sysml",
+          "status": "fail",
+          "errors": 2,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.20.2-001.sysml",
+          "status": "fail",
+          "errors": 7,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.21.1-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.21.2-001.sysml",
+          "status": "fail",
+          "errors": 6,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.21.3-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.21.3-002.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.21.3-003.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.21.3-004.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.22.2-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.22.3-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.22.4-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.22.4-002.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.22.6-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.22.6-002.sysml",
+          "status": "fail",
+          "errors": 2,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.3.1-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.3.2-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.4-001.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.4-002.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.5.1-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.5.1-002.sysml",
+          "status": "fail",
+          "errors": 3,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.5.2-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.5.2-002.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.5.2-003.sysml",
+          "status": "fail",
+          "errors": 7,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.5.3-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.5.3-002.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.6.2-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.7.2-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.8.1-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.8.1-002.sysml",
+          "status": "fail",
+          "errors": 9,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.8.2-001.sysml",
+          "status": "fail",
+          "errors": 2,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.8.2-002.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.8.2-003.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.8.2-004.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.9.1-001.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.9.1-002.sysml",
+          "status": "fail",
+          "errors": 1,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.9.1-003.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.9.1-004.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.9.1-005.sysml",
+          "status": "fail",
+          "errors": 2,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.9.1-006.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.9.2-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.9.2-002.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.9.2-003.sysml",
+          "status": "fail",
+          "errors": 4,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.9.3-001.sysml",
+          "status": "fail",
+          "errors": 5,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-8.4.9.4-001.sysml",
+          "status": "fail",
+          "errors": 5,
+          "lexerErrors": 0
+        }
+      ]
+    },
+    "ch9-libraries": {
+      "pass": 11,
+      "fail": 2,
+      "empty": 0,
+      "files": [
+        {
+          "file": "ex-9.4.3.2.6-001.sysml",
+          "status": "fail",
+          "errors": 12,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-9.8.10.1-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-9.8.10.1-002.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-9.8.10.1-003.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-9.8.10.1-004.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-9.8.11.1-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-9.8.11.1-002.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-9.8.12.1-001.sysml",
+          "status": "fail",
+          "errors": 2,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-9.8.3.2.29-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-9.8.9.1-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-9.8.9.1-002.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-9.8.9.1-003.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "ex-9.8.9.1-004.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        }
+      ]
+    },
+    "user-test": {
+      "pass": 3,
+      "fail": 0,
+      "empty": 0,
+      "files": [
+        {
+          "file": "user-test-001.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "user-test-002.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        },
+        {
+          "file": "user-test-003.sysml",
+          "status": "pass",
+          "errors": 0,
+          "lexerErrors": 0
+        }
+      ]
+    }
+  }
+}

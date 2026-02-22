@@ -1,0 +1,46 @@
+{
+  "name": "@sysml/language-server",
+  "version": "0.1.0",
+  "type": "module",
+  "license": "LGPL-3.0-or-later",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vpathai-git/sysmlv2-language-server.git"
+  },
+  "description": "SysML v2 Language Server Protocol implementation",
+  "main": "dist/src/main.js",
+  "types": "dist/src/main.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/src/main.d.ts",
+      "import": "./dist/src/main.js"
+    }
+  },
+  "bin": {
+    "sysml-language-server": "./bin/sysml-language-server.js"
+  },
+  "scripts": {
+    "build": "tsc && node ./esbuild.mjs && node -e \"const fs=require('fs');const src='stdlib';const dest='dist/stdlib';fs.rmSync(dest,{recursive:true,force:true});fs.mkdirSync('dist',{recursive:true});fs.cpSync(src,dest,{recursive:true});console.log('Stdlib copied successfully');\"",
+    "build:browser": "tsc && node ./esbuild-browser.mjs",
+    "build:node": "tsc && node ./esbuild.mjs",
+    "build:all": "tsc && node ./esbuild-browser.mjs && node ./esbuild.mjs && node -e \"const fs=require('fs');const src='stdlib';const dest='dist/stdlib';fs.rmSync(dest,{recursive:true,force:true});fs.mkdirSync('dist',{recursive:true});fs.cpSync(src,dest,{recursive:true});console.log('Stdlib copied successfully');\"",
+    "watch": "tsc --watch",
+    "clean": "rm -rf dist tsconfig.tsbuildinfo",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@sysml/core": "*",
+    "@sysml/grammar": "*",
+    "langium": "^4.2.1",
+    "vscode-languageserver": "^9.0.0",
+    "vscode-languageserver-textdocument": "^1.0.0",
+    "vscode-uri": "^3.0.0"
+  },
+  "devDependencies": {
+    "@sysml/shim": "file:../../extension/shim",
+    "@types/node": "^20.0.0",
+    "esbuild": "^0.19.0",
+    "typescript": "^5.3.0",
+    "vitest": "^4.0.0"
+  }
+}

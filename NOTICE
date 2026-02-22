@@ -1,0 +1,54 @@
+SysML v2 Language Support for VS Code
+Copyright (c) 2025-2026 VPATHAI
+
+================================================================================
+Dual-License Structure
+================================================================================
+
+This project uses a dual-license model:
+
+  LGPL-3.0-or-later (default)
+    Root extension, @sysml/grammar, @sysml/language-server
+
+  MIT
+    @sysml/core (Tree-Graph model engine)
+    @sysml/shim (EMF compatibility layer)
+    These packages are original work by VPATHAI.
+
+See LICENSES/ for full license texts and individual package LICENSE files.
+
+================================================================================
+Third-Party Licenses
+================================================================================
+
+This project uses the following third-party libraries (all permissive licenses):
+
+  Langium (MIT) - https://langium.org
+  VS Code Language Client/Server (MIT) - https://github.com/microsoft/vscode-languageserver-node
+  uuid (MIT) - https://github.com/uuidjs/uuid
+
+================================================================================
+Upstream Projects
+================================================================================
+
+This project incorporates and builds upon the following upstream projects:
+
+  SysML v2 Pilot Implementation (LGPL-3.0-or-later)
+    https://github.com/Systems-Modeling/SysML-v2-Pilot-Implementation
+    Copyright (c) 2018-2025 Model Driven Solutions, Inc.
+    Copyright (c) 2018 IncQuery Labs Ltd.
+    Copyright (c) 2019 Maplesoft (Waterloo Maple, Inc.)
+    Copyright (c) 2019 Mgnite Inc.
+
+    The following components are derived from or based on the Pilot Implementation:
+    - Grammar definitions (src/packages/grammar/src/*.langium) — ported from Xtext to Langium
+    - Standard library (src/packages/language-server/stdlib/) — SysML/KerML standard library files
+    - Validation codes (src/packages/language-server/src/validation/validation-codes.ts)
+
+  SysIDE / sysml-2ls (EPL-2.0)
+    https://github.com/sensmetry/sysml-2ls
+    Copyright (c) Sensmetry
+
+    SysIDE served as an architectural reference for building a Langium-based
+    SysML v2 language server. No source code from SysIDE was copied or ported
+    into this project.

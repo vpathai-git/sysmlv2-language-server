@@ -1,0 +1,160 @@
+{
+  "name": "vpath-sysml-v2-language-support",
+  "displayName": "SysML v2 Language Support",
+  "description": "Language support for SysML v2 (Syntax, Validation, LSP).",
+  "version": "0.1.0",
+  "publisher": "VPATHAI",
+  "author": "VPATHAI",
+  "license": "LGPL-3.0-or-later",
+  "icon": "media/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vpathai-git/sysmlv2-language-server.git"
+  },
+  "homepage": "https://github.com/vpathai-git/sysmlv2-language-server",
+  "bugs": {
+    "url": "https://github.com/vpathai-git/sysmlv2-language-server/issues"
+  },
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "activationEvents": [
+    "onLanguage:sysml",
+    "onLanguage:kerml",
+    "workspaceContains:**/*.sysml",
+    "workspaceContains:**/*.kerml"
+  ],
+  "keywords": [
+    "sysml",
+    "sysml v2",
+    "modeling"
+  ],
+  "main": "./dist/extension.js",
+  "browser": "./dist/web/extension.js",
+  "contributes": {
+    "languages": [
+      {
+        "id": "sysml",
+        "aliases": [
+          "SysML v2",
+          "sysml"
+        ],
+        "extensions": [
+          ".sysml"
+        ],
+        "configuration": "./sysml_resources/language-configuration.json",
+        "icon": {
+          "light": "./media/icons/sysml-file.svg",
+          "dark": "./media/icons/sysml-file.svg"
+        }
+      },
+      {
+        "id": "kerml",
+        "aliases": [
+          "KerML",
+          "kerml"
+        ],
+        "extensions": [
+          ".kerml"
+        ],
+        "configuration": "./sysml_resources/language-configuration.json",
+        "icon": {
+          "light": "./media/icons/sysml-file.svg",
+          "dark": "./media/icons/sysml-file.svg"
+        }
+      }
+    ],
+    "grammars": [
+      {
+        "language": "sysml",
+        "scopeName": "source.sysml",
+        "path": "./sysml_resources/syntaxes/sysml.tmLanguage.json"
+      },
+      {
+        "language": "kerml",
+        "scopeName": "source.sysml",
+        "path": "./sysml_resources/syntaxes/sysml.tmLanguage.json"
+      }
+    ],
+    "commands": [
+      {
+        "command": "sysml.restartServer",
+        "title": "Restart SysML Language Server",
+        "category": "SysML"
+      },
+      {
+        "command": "sysml.rescanWorkspace",
+        "title": "Rescan Workspace for SysML Files",
+        "category": "SysML"
+      },
+      {
+        "command": "sysml.showModel",
+        "title": "Show SysML Model Structure",
+        "category": "SysML"
+      }
+    ],
+    "menus": {
+      "editor/context": [
+        {
+          "command": "sysml.showModel",
+          "when": "resourceLangId == sysml",
+          "group": "sysml"
+        }
+      ]
+    },
+    "configuration": [
+      {
+        "title": "SysML v2",
+        "properties": {
+          "sysml.trace.server": {
+            "type": "string",
+            "enum": [
+              "off",
+              "messages",
+              "verbose"
+            ],
+            "default": "off",
+            "description": "Traces the communication between VS Code and the SysML language server."
+          },
+          "sysml.validation.enabled": {
+            "type": "boolean",
+            "default": true,
+            "description": "Enable/disable validation of SysML files."
+          },
+          "sysml.formatting.indentSize": {
+            "type": "number",
+            "default": 4,
+            "description": "Number of spaces for indentation."
+          }
+        }
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run build:production",
+    "build:sysml-browser": "cd src/packages/language-server && npm run build:browser",
+    "build:sysml-node": "cd src/packages/language-server && npm run build:node",
+    "build:sysml-all": "cd src && npm run build",
+    "build": "npm run build:sysml-all && npm run build:extension",
+    "build:extension": "node esbuild.js",
+    "build:production": "cd src && npm run build && cd .. && npm run build:extension -- --production",
+    "watch": "node esbuild.js --watch",
+    "package": "vsce package --no-dependencies",
+    "test:web": "vscode-test-web --browserType=chromium --extensionDevelopmentPath=. --open-devtools ./test-workspace",
+    "test:web:github": "vscode-test-web --browserType=chromium --extensionDevelopmentPath=. --open-devtools --folder-uri=vscode-vfs://github/GfSE/SysML-v2-Models"
+  },
+  "dependencies": {
+    "vscode-languageclient": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "20.19.25",
+    "@types/vscode": "1.90.0",
+    "@vscode/test-web": "^0.0.78",
+    "@vscode/vsce": "2.32.0",
+    "esbuild": "0.19.12",
+    "typescript": "5.9.3"
+  }
+}

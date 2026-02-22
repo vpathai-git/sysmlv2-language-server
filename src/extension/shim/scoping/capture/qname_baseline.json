@@ -1,0 +1,6 @@
+{
+  "A_simple_name": "Root",
+  "B_nested_name": "Root.Child",
+  "C_deep_nested_name": "Root.Child.GrandChild",
+  "D_no_name": null
+}

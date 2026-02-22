@@ -1,0 +1,105 @@
+# Source files (bundled at build time)
+src/**
+webview/src/**
+webview/node_modules/**
+webview/package.json
+webview/package-lock.json
+webview/tsconfig.json
+webview/vite.config.ts
+webview/index.html
+
+# Development artifacts
+node_modules/**
+archive/**
+.gemini/**
+context/**
+logs/**
+.vscode/**
+.vscode-test/**
+**/*.log
+*.vsix
+
+# Python virtual environment
+.venv/**
+
+# Development/verification folders
+verification_suite/**
+playbook/**
+specifications/**
+backlog/**
+ADR/**
+incubator/**
+tests/**
+test/**
+
+# Development integration folders (NOT needed at runtime)
+dist-integration/**
+dist2/**
+handover/**
+handover2/**
+healing_backup/**
+sysml_server/**
+
+# Development docs (exclude all .md except README)
+*.md
+!README.md
+learnings.md
+project.md
+instruction_prompt.md
+analysis.md
+extension_card_readme.md
+README.md.bak
+
+# Test files
+simple-test.sysml
+test2.sysml
+*.test.sysml
+test-*.mjs
+
+
+# Build tooling & configs
+esbuild.js
+tsconfig.json
+.gitignore
+*.sh
+install.sh
+INSTALL.md
+START_EXTENSION.md
+TEST_INSTRUCTIONS.md
+test-*.js
+test-*.sh
+requirements.txt
+fix_logs.cr
+
+# Misc files not needed at runtime
+GIT_INTEGRATION_SUMMARY.txt
+.env
+.env.bak
+private_readme.md
+review_changes.md
+unfork.md
+hello.txt
+build_id.json
+.vpath_agent/**
+tmp/**
+repos/**
+references/**
+ressources/**
+
+# Source code (bundled at build time, not needed at runtime)
+src/**
+
+# Exclude gemini-cli-fork as it is bundled
+gemini-cli-fork/**
+scripts/**
+
+# Exclude testflight playground and temp folders
+testflight_playground/**
+temp_inspect/**
+test-repro-workspace/**
+test_vscode_tools/**
+
+# Secrets
+**/.env
+**/.env.*
+

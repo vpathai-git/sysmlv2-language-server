@@ -1,0 +1,7 @@
+{
+  "A_error_count": 1,
+  "A_error_msg": "Name cannot be empty",
+  "B_warning_count": 1,
+  "B_warning_msg": "Name should start with uppercase",
+  "C_valid_count": 0
+}

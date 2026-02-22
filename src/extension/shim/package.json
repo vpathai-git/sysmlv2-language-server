@@ -1,0 +1,28 @@
+{
+  "name": "@sysml/shim",
+  "version": "0.1.0",
+  "type": "module",
+  "license": "MIT",
+  "author": "VPATHAI",
+  "description": "EMF Shim for SysML v2 Language Server — original work by VPATHAI",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "test": "echo 'Run individual module tests'"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.3.0",
+    "@types/node": "^20.0.0",
+    "@types/chai": "^4.3.5",
+    "chai": "^4.3.7"
+  }
+}

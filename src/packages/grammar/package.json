@@ -1,0 +1,29 @@
+{
+  "name": "@sysml/grammar",
+  "version": "0.1.1",
+  "type": "module",
+  "license": "LGPL-3.0-or-later",
+  "description": "SysML v2 Langium Grammar - Pure grammar and AST (no LSP dependencies)",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "npx langium generate && node build.mjs",
+    "build:types": "tsc --emitDeclarationOnly --noEmit false || true",
+    "watch": "npx langium generate --watch",
+    "clean": "rm -rf dist tsconfig.tsbuildinfo"
+  },
+  "dependencies": {
+    "langium": "^4.2.1"
+  },
+  "devDependencies": {
+    "esbuild": "^0.27.2",
+    "langium-cli": "^4.2.0",
+    "typescript": "^5.8.0"
+  }
+}

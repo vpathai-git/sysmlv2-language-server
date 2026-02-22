@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "Node16",
+    "lib": ["ES2022", "DOM", "WebWorker"],
+    "moduleResolution": "Node16",
+    "verbatimModuleSyntax": false,
+    "outDir": "dist",
+    "composite": true,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": [
+    "src/sysml-validator.ts",
+    "src/adapters/validation-adapter.ts",
+    "src/test/**/*.ts"
+  ],
+  "references": [
+    { "path": "../core" },
+    { "path": "../grammar" }
+  ]
+}

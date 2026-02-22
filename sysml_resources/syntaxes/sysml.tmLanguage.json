@@ -1,0 +1,179 @@
+{
+  "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+  "name": "SysML v2",
+  "scopeName": "source.sysml",
+  "patterns": [
+    {
+      "include": "#comments"
+    },
+    {
+      "include": "#keywords"
+    },
+    {
+      "include": "#strings"
+    },
+    {
+      "include": "#numbers"
+    },
+    {
+      "include": "#types"
+    }
+  ],
+  "repository": {
+    "keywords": {
+      "patterns": [
+        {
+          "name": "keyword.control.flow.sysml",
+          "match": "\\b(if|then|else|while|do|for|in|first|loop)\\b"
+        },
+        {
+          "name": "keyword.control.import.sysml",
+          "match": "\\b(import|alias|expose)\\b"
+        },
+        {
+          "name": "keyword.declaration.sysml",
+          "match": "\\b(package|namespace|library|standard)\\b"
+        },
+        {
+          "name": "keyword.definition.sysml",
+          "match": "\\b(def|abstract|feature|classifier|datatype|class|struct|assoc|interaction|behavior|function|predicate|metaclass)\\b"
+        },
+        {
+          "name": "keyword.type.definition.sysml",
+          "match": "\\b(part|item|occurrence|individual|interface|port|connection|binding|succession|flow|allocation)\\b"
+        },
+        {
+          "name": "keyword.type.attribute.sysml",
+          "match": "\\b(attribute|ref|enum|metadata)\\b"
+        },
+        {
+          "name": "keyword.type.behavioral.sysml",
+          "match": "\\b(action|state|calc|constraint|requirement|concern)\\b"
+        },
+        {
+          "name": "keyword.type.case.sysml",
+          "match": "\\b(case|analysis|verification|use)\\b"
+        },
+        {
+          "name": "keyword.type.view.sysml",
+          "match": "\\b(view|viewpoint|rendering)\\b"
+        },
+        {
+          "name": "keyword.action.sysml",
+          "match": "\\b(perform|accept|send|assign|exhibit|assert|satisfy|require|include)\\b"
+        },
+        {
+          "name": "keyword.state.sysml",
+          "match": "\\b(entry|exit|transition)\\b"
+        },
+        {
+          "name": "keyword.relationship.sysml",
+          "match": "\\b(specialization|subsetting|redefinition|conjugation|disjoining|typing|featuring|inverting|chaining|chains|crosses)\\b"
+        },
+        {
+          "name": "keyword.membership.sysml",
+          "match": "\\b(membership|actor|stakeholder|subject|objective|frame|render)\\b"
+        },
+        {
+          "name": "keyword.connector.sysml",
+          "match": "\\b(connect|bind|from|to|via|end)\\b"
+        },
+        {
+          "name": "keyword.operator.sysml",
+          "match": "\\b(subtype|subsets|redefines|typed|disjoint|inverts|features|member|of|by|all)\\b"
+        },
+        {
+          "name": "keyword.multiplicity.sysml",
+          "match": "\\b(ordered|nonunique|multiplicity)\\b"
+        },
+        {
+          "name": "keyword.expression.sysml",
+          "match": "\\b(collect|select|difference|union|intersect|exclude|cast|as|range|null|not|and|or|implies|metadata)\\b"
+        },
+        {
+          "name": "keyword.timing.sysml",
+          "match": "\\b(event|occurrence|timeslice|snapshot|at|after|every|when|trigger)\\b"
+        },
+        {
+          "name": "keyword.control.node.sysml",
+          "match": "\\b(merge|decision|fork|join|step)\\b"
+        },
+        {
+          "name": "keyword.modifier.visibility.sysml",
+          "match": "\\b(public|private|protected)\\b"
+        },
+        {
+          "name": "keyword.modifier.direction.sysml",
+          "match": "\\b(in|out|inout)\\b"
+        },
+        {
+          "name": "keyword.documentation.sysml",
+          "match": "\\b(doc|comment|rep|language|body)\\b"
+        },
+        {
+          "name": "keyword.other.sysml",
+          "match": "\\b(allocate|group|declare|return|parameter|argument|result|variant|filter|kind|life)\\b"
+        },
+        {
+          "name": "constant.language.boolean.sysml",
+          "match": "\\b(true|false)\\b"
+        }
+      ]
+    },
+    "types": {
+      "patterns": [
+        {
+          "name": "support.type.sysml",
+          "match": "\\b(Real|Integer|String|Boolean)\\b"
+        }
+      ]
+    },
+    "strings": {
+      "patterns": [
+        {
+          "name": "string.quoted.double.sysml",
+          "begin": "\"",
+          "end": "\"",
+          "patterns": [
+            {
+              "name": "constant.character.escape.sysml",
+              "match": "\\\\."
+            }
+          ]
+        },
+        {
+          "name": "string.quoted.single.sysml",
+          "begin": "'",
+          "end": "'",
+          "patterns": [
+            {
+              "name": "constant.character.escape.sysml",
+              "match": "\\\\."
+            }
+          ]
+        }
+      ]
+    },
+    "numbers": {
+      "patterns": [
+        {
+          "name": "constant.numeric.sysml",
+          "match": "\\b[0-9]+(\\.[0-9]+)?\\b"
+        }
+      ]
+    },
+    "comments": {
+      "patterns": [
+        {
+          "name": "comment.line.double-slash.sysml",
+          "match": "//.*$"
+        },
+        {
+          "name": "comment.block.sysml",
+          "begin": "/\\*",
+          "end": "\\*/"
+        }
+      ]
+    }
+  }
+}
